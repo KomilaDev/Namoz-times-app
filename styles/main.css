@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #3F5EFB,#FC466B);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid  yellow;
+  width: 25%;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: #45e5ee;
+  box-shadow: 0px 5px 10px 2px rgba(241, 249, 12, 0.469) inset;
+}
+
+.header h1 {
+  color:fuchsia;
+  font-size: 40px;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 2px 2px 2px rgba(206, 39, 192, 0);
+}
+
+.header h2 {
+  margin-bottom: 20px;
+  margin-left: 10px     ;
+  font-size: 35px;
+  color:blueviolet;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bomdod,
+.peshin,
+.asr,
+.shom,
+.hufton {
+  background-color: rgb(227, 240, 183);
+  box-shadow: 0px 5px 25px 5px rgba(221, 230, 236, 0.863);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 17vw;
+  height: 40vh;
+  border-radius: 15px;
+  transition: all 0.1s ease-in-out;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: blue;
+
+}
+
+#vaqt {
+  margin-top: 20px;
+  font-size: 65px;
+  text-align: center;
+}
+
+#quyosh {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(9, 28, 239);
+}
+
+#arabic_bomdod {
+  margin-top: 20px;
+  color: rgb(245, 140, 48);
+}
+
+#arabic_peshin {
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(20, 243, 27);
+}
+
+#arabic_asr {
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(248, 18, 64);
+}
+
+#arabic_shom {
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(10, 170, 90);
+}
+
+#arabic_hufton {
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(243, 20, 180);
+}
+
+.bomdod:hover,
+.peshin:hover,
+.asr:hover,
+.shom:hover,
+.hufton:hover {
+  box-shadow: 0px 5px 50px 15px rgba(233, 236, 238, 0.986);
+  cursor: pointer;
+}
+
+.current__date {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(219, 226, 236);
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.current__date:hover {
+  box-shadow: 0px 5px 50px 15px rgba(233, 236, 238, 0.986);
+  cursor: pointer;
+}
+
+.tahajjud__date {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: bisque;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+i{
+  font-weight: 600;
+  color: #12bfc8;
+}
+span {
+  font-size: 30px;
+  font-style: italic;
+  color: #FC466B;
+}
+
+.tahajjud__date:hover {
+  cursor: pointer;
+}
